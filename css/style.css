@@ -1,0 +1,63 @@
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+body {
+    min-height: 100vh;
+    width: 100%;
+}
+
+:root {
+    --index: 1vh + 1vw;
+}
+
+.header {
+    height: 100vh;
+    width: 100%;
+
+    overflow: hidden;
+}
+
+.bg {
+    height: 110%;
+    width: 110%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+    background-image: url(../img/city.jpg);
+    background-size: cover;
+}
+
+.hacker {
+    height: calc(var(--index) * 42);
+    width: calc(var(--index) * 40);
+    position: absolute;
+    bottom: calc(var(--index) * -7);
+    left: calc(var(--index) * 30);
+
+    background-image: url(../img/hacker.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.text {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%);
+
+    font-size: calc(var(--index) * 7);
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 900;
+    text-shadow: 5px 5px 15px #000000;
+	white-space: nowrap;
+}
