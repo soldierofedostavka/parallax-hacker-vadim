@@ -41,7 +41,7 @@ body {
     bottom: calc(var(--index) * -7);
     left: calc(var(--index) * 30);
 
-    background-image: url(../img/hacker.png);
+    background-image: url(../img/vadim.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
