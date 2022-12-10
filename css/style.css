@@ -30,18 +30,18 @@ body {
     justify-content: center;
     position: relative;
 
-    background-image: url(../img/city.jpg);
+    background-image: url(../img/city.webp);
     background-size: cover;
+    background-position: center;
 }
 
 .hacker {
-    height: calc(var(--index) * 42);
-    width: calc(var(--index) * 40);
+    height: calc(var(--index) * 27);
+    width: calc(var(--index) * 25);
     position: absolute;
     bottom: calc(var(--index) * -7);
-    left: calc(var(--index) * 30);
 
-    background-image: url(../img/vadim.png);
+    background-image: url(../img/hacker.webp);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -53,7 +53,8 @@ body {
     left: 50%;
     transform: translate(-50%);
 
-    font-size: calc(var(--index) * 7);
+    font-family: sans-serif;
+    font-size: calc(var(--index) * 3);
     color: #fff;
     text-transform: uppercase;
     text-align: center;
